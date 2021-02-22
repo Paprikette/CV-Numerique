@@ -81,6 +81,13 @@ color: #FACF33;
 #nav li{
   margin-top: 30px;
 }
+footer{
+  display: block;
+  margin-top: 400px;
+}
+footer p{
+  margin-left: 600px;
+}
 
 /*FORMATION*/
 
@@ -183,7 +190,6 @@ li img{
   background-size: cover;
   -webkit-background-size: cover;
   background-color: black;
-  background-position: ;
 }
 #aboutme h2{
   margin-right: 80px;
@@ -201,4 +207,14 @@ li img{
   display:flex;
   flex-direction: column;
   width: 40%;
+}
+#contact{
+  margin-right: 640px;
+  width: 550px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+#contact img{
+  width: 30px;
 }
